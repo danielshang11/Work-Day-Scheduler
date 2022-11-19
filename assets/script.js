@@ -5,13 +5,14 @@ $(document).ready(function runFunction() {
     $(".saveBtn").click(function(){
         var input = $(this).siblings(".schedule").val();
         var currentTime = $(this).parent().attr("id"); 
-        localStorage.setItem(input, currentTime);
-        console.log(currentTime)
-        $('.hint').removeClass('hide');
+        localStorage.setItem(currentTime, input);
+        // console.log(currentTime)
+        $(".hint").removeClass("hide");
         setTimeout(function(){
-            $('.hint').addClass('hide');
+            $(".hint").addClass("hide");
         }, 3000);            
     });
+
 
     var currentTime= dayjs().hour();
     $(".time-block").each(function(){

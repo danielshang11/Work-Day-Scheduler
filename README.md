@@ -11,7 +11,7 @@ N/A
 
 ## Usage
 
-![alt text](./assets/images/Daniel.png)
+![alt text](./assets/image/Work%20Day%20Scheduler.gif)
 
 ## Credits
 

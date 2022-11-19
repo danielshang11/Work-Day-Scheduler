@@ -81,6 +81,12 @@ header {
   color: black;
 }
 
+.hint{
+  text-align: center;
+  border-radius: 15px;
+  color: #ff0d00;
+  font-size: 32px;
+}
 
 
 .hide {

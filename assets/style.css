@@ -75,3 +75,14 @@ header {
   -o-border-radius: 15px;
 }
 
+.notification {
+  display: none;
+  padding-bottom: 15pxpx;
+  color: black;
+}
+
+
+
+.hide {
+  display: none;
+}
